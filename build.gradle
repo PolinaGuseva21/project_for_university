@@ -1,11 +1,11 @@
+plugins {
+    id 'jacoco'
+    id 'java'
+}
+
 repositories {
     mavenCentral()
 }
-
-plugins {
-    id 'jacoco'
-}
-apply plugin: 'java'
 
 dependencies {
     testCompile 'junit:junit:4.12'
